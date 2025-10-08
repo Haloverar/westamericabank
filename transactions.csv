@@ -1,0 +1,64 @@
+date,type,amount,counterparty,description
+2025-10-07,outflow,82138.76,Counterparty_60,Payment Payout
+2025-10-06,outflow,105998.88,Counterparty_59,Service Payment
+2025-10-05,inflow,1042269.82,Counterparty_58,Large Deposit
+2025-10-04,outflow,107998.34,Counterparty_57,Vendor Payment
+2025-10-03,inflow,1042269.82,Counterparty_56,Large Deposit
+2025-10-02,outflow,14777.65,Counterparty_55,Transfer Out
+2025-10-01,inflow,56992.11,Counterparty_54,Incoming Transfer
+2025-09-30,outflow,11610.77,Counterparty_53,ACH Payment
+2025-09-29,inflow,42223.31,Counterparty_52,Received Funds
+2025-09-29,inflow,30500.00,Counterparty_52b,Incoming Transfer
+2025-09-28,outflow,6783.98,Counterparty_51,Card Payment
+2025-09-27,outflow,28384.65,Counterparty_50,Wire Out
+2025-09-26,inflow,36494.01,Counterparty_49,Wire In
+2025-09-25,outflow,7776.80,Counterparty_48,Utility Payment
+2025-09-24,inflow,35400.12,Counterparty_47,Received Funds
+2025-09-23,outflow,29970.61,Counterparty_46,Vendor Payment
+2025-09-22,inflow,18119.84,Counterparty_45,Incoming Transfer
+2025-09-21,outflow,43258.33,Counterparty_44,Payroll
+2025-09-20,outflow,4408.01,Counterparty_43,Refund
+2025-09-19,inflow,22886.43,Counterparty_42,Incoming Transfer
+2025-09-18,outflow,1584.85,Counterparty_41,Card Payment
+2025-09-17,outflow,6247.50,Counterparty_40,Subscription
+2025-09-16,inflow,171009.76,Counterparty_39,Invoice Payment
+2025-09-16,inflow,78000.00,Department of Defense,Wire Income - Department of Defense
+2025-09-15,outflow,12116.62,Counterparty_38,Office Expense
+2025-09-14,inflow,58724.11,Counterparty_37,Received Funds
+2025-09-13,outflow,1964.59,Counterparty_36,Small Purchase
+2025-09-12,outflow,18904.90,Counterparty_35,Wire Out
+2025-09-11,inflow,12849.52,Counterparty_34,Interest
+2025-09-10,outflow,38121.04,Counterparty_33,Vendor Payment
+2025-09-09,inflow,44205.62,Counterparty_32,Incoming Transfer
+2025-09-08,outflow,130283.28,Counterparty_31,Large Payout
+2025-09-07,outflow,4231.45,Counterparty_30,Card Payment
+2025-09-06,inflow,87014.95,Counterparty_29,Customer Deposit
+2025-09-05,outflow,36237.77,Counterparty_28,Vendor Payment
+2025-09-04,inflow,24501.01,Counterparty_27,Incoming Transfer
+2025-09-03,outflow,3251.16,Counterparty_26,Refund
+2025-09-02,outflow,6427.05,Counterparty_25,Card Payment
+2025-09-01,inflow,53887.13,Counterparty_24,Incoming Transfer
+2025-08-31,outflow,49753.96,Counterparty_23,Wire Out
+2025-08-30,outflow,9994.28,Counterparty_22,Card Payment
+2025-08-29,inflow,16342.98,Counterparty_21,Incoming Transfer
+2025-08-28,outflow,73793.09,Counterparty_20,Vendor Payment
+2025-08-27,outflow,14249.47,Counterparty_19,Office Expense
+2025-08-26,inflow,163692.21,Counterparty_18,Large Deposit
+2025-08-25,outflow,70452.34,Counterparty_17,Payroll
+2025-08-24,inflow,44438.54,Counterparty_16,Received Funds
+2025-08-23,outflow,21819.03,Counterparty_15,Vendor Payment
+2025-08-22,outflow,5649.09,Counterparty_14,Card Payment
+2025-08-21,inflow,35470.62,Counterparty_13,Incoming Transfer
+2025-08-20,outflow,52529.94,Counterparty_12,Wire Out
+2025-08-20,inflow,45000.00,Counterparty_12b,Incoming Transfer
+2025-08-19,outflow,26053.45,Counterparty_11,Card Payment
+2025-08-18,inflow,98617.44,Counterparty_10,Received Funds
+2025-08-17,outflow,17436.45,Counterparty_9,Card Payment
+2025-08-16,outflow,35324.73,Counterparty_8,Vendor Payment
+2025-08-15,inflow,119795.05,Counterparty_7,Customer Deposit
+2025-08-14,outflow,3155.07,Counterparty_6,Small Payment
+2025-08-13,outflow,25811.02,Counterparty_5,Vendor Payment
+2025-08-12,inflow,59380.64,Counterparty_4,Incoming Transfer
+2025-08-11,outflow,63114.71,Counterparty_3,Payment
+2025-08-10,outflow,113705.26,Counterparty_2,Large Payout
+2025-08-09,inflow,169039.95,Counterparty_1,Initial Deposit

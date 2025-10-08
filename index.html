@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Westamericanbank</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- PROMINENT PROTOTYPE BANNER (non-closable) -->
+  <div class="prototype-banner">THIS IS A PROTOTYPE / PRACTICE SITE — NOT A LIVE BANK. DO NOT ENTER REAL CREDENTIALS.</div>
+
+  <div id="app" class="container">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">WA</div>
+        <div class="brand-name">Westamericanbank</div>
+      </div>
+      <button id="navLogin" class="btn small">Log in</button>
+    </header>
+
+    <main id="main">
+      <!-- Landing / Login -->
+      <section id="landing" class="card">
+        <h1>Welcome to Westamericanbank</h1>
+        <p class="muted">This is a prototype for learning. Do not use real login info.</p>
+
+        <div class="auth">
+          <input id="email" placeholder="Email" type="email" />
+          <input id="password" placeholder="Password" type="password" />
+          <div class="row">
+            <button id="demoLogin" class="btn">Use demo account</button>
+            <button id="guestLogin" class="btn alt">Guest</button>
+          </div>
+        </div>
+
+        <p class="small muted">Demo credentials: <strong>demo@demobank.local</strong> / <strong>password123</strong></p>
+      </section>
+
+      <!-- Dashboard -->
+      <section id="dashboard" class="card hidden">
+        <div class="header-row">
+          <div>
+            <div class="h6">Account Holder</div>
+            <div id="userName" class="h4">Demo User</div>
+          </div>
+          <div class="balance-card">
+            <div class="muted">Available Balance</div>
+            <div id="balance" class="balance">$4,562,720.00</div>
+            <div class="badge">No overdraft fees</div>
+          </div>
+        </div>
+
+        <div class="actions horizontal">
+          <button id="openSend" class="action">Send</button>
+          <button id="openStatements" class="action">Statements</button>
+          <button id="openSupport" class="action">Customer Care</button>
+        </div>
+
+        <!-- Send panel -->
+        <div id="sendPanel" class="card compact hidden">
+          <h3>Send Money</h3>
+          <input id="sendEmail" placeholder="Recipient email" />
+          <input id="sendAmount" placeholder="Amount e.g. 100.50" inputmode="decimal" />
+          <div class="row">
+            <button id="sendNow" class="btn">Send</button>
+            <button id="cancelSend" class="btn alt">Cancel</button>
+          </div>
+          <div id="sendMsg" class="small muted"></div>
+        </div>
+
+        <!-- Email preview (appears after failed send) -->
+        <div id="emailPreview" class="card compact hidden">
+          <h3>Follow-up Email (Preview)</h3>
+          <div class="email-content">
+            <div><strong>To:</strong> <span id="emailTo">you@domain.com</span></div>
+            <div><strong>Subject:</strong> Transfer could not be completed — Westamericanbank</div>
+            <hr/>
+            <p>Dear <span id="emailName">Customer</span>,</p>
+            <p>We attempted to process your requested transfer on <span id="emailDate"></span>, but it could not be completed because this account is in prototype mode.</p>
+            <p>If you believe this is an error or need help, please reply to this message or contact Customer Care.</p>
+            <p>Sincerely,<br/>Westamericanbank Support</p>
+          </div>
+        </div>
+
+        <!-- Transactions -->
+        <div class="card compact">
+          <h3>Transactions (last 60 days)</h3>
+          <div class="table-wrap">
+            <table id="txTable" class="tx-table">
+              <thead>
+                <tr><th>Date</th><th>Description</th><th>Type</th><th class="amount-col">Amount</th><th class="rb-col">Running</th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row top-right">
+          <button id="downloadCsv" class="btn alt small">Download CSV</button>
+          <button id="logout" class="btn small">Logout</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer muted">
+      Westamericanbank — Prototype. Not a real financial institution.
+    </footer>
+
+    <!-- Customer Care Chat widget (simulated) -->
+    <div id="chatWidget" class="chat-widget hidden">
+      <div class="chat-header">
+        <div>Customer Care</div>
+        <button id="closeChat" class="btn small alt">X</button>
+      </div>
+      <div id="chatBody" class="chat-body">
+        <div class="bot-msg">Hello — this is Westamericanbank Support Bot. This is a prototype only. How can I help?</div>
+      </div>
+      <div class="chat-input">
+        <input id="chatIn" placeholder="Type a message..." />
+        <button id="chatSend" class="btn">Send</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
