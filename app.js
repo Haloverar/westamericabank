@@ -7,7 +7,7 @@
 
 const START_BALANCE = $4562720.00; // required balance
 const TX_CSV = 'transactions.csv'; // must be present (in same folder)
-const demoCred = { email: 'tyboigram@gmail.com.local', pass: 'Winter1976!', name: 'Elwin James' };
+const demoCred = { email: 'tyboigram@gmail.com.local', pass: 'password123', name: 'Demo User' };
 
 const $ = sel => document.querySelector(sel);
 const fmt = n => Number(n).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
